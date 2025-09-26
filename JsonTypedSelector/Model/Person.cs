@@ -4,7 +4,7 @@ namespace JsonTypedSelector.Model
 {
     public record Person
     {
-        //[JsonPropertyName("card_number")]
+        [JsonPropertyName("card_number")]
         public int CardNumber { get; init; }
 
         [JsonPropertyName("first_name")]

@@ -6,7 +6,7 @@ using System.Text.Json.Nodes;
 namespace JsonTypedSelector.Tests
 {
     [TestClass]
-    public sealed class Test1
+    public sealed class Tests
     {
         public static Person person;
 
